@@ -1,5 +1,6 @@
 package joao.workload.nupasd_ufpi.workloadgenerator;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent it = new Intent(MainActivity.this, Main2Activity_configuracoes.class);
+            startActivity(it);
         }
 
         return super.onOptionsItemSelected(item);

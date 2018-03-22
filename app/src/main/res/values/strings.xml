@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WorkLoadGenerator</string>
     <string name="action_settings">Configurações</string>
+    <string name="title_activity_main2_configuracoes">Main2Activity_configuracoes</string>
 </resources>
